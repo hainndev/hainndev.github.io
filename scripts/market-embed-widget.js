@@ -52,7 +52,7 @@
         marketIndexEmbedding() {
             const e = this.widgetContainer,
                 l = this.script,
-                s = ((c = C(C(C({}, this.commonConfig), this.defaultConfigs["dnse-market-index"]), this.config)), (o = { utm_source: window.location.hostname || "", utm_medium: "widget" }), t(c, i(o)));
+                s = ((c = C(C(C({}, this.commonConfig), this.defaultConfigs["dnse-market-index"]), this.config)), (o = { utm_source: "https://www.dnse.com.vn" || "", utm_medium: "widget" }), t(c, i(o)));
             var c, o;
             const a = this.serializedQueryString(
                 ((e, t) => {
@@ -81,7 +81,7 @@
             return (
                 t.setAttribute("href", i),
                 t.setAttribute("target", "_blank"),
-                (t.textContent = "Giao dá»‹ch"),
+                (t.textContent = "Giao dịch"),
                 (t.style.cssText = `\n      font-family:Roboto,sans-serif;\n      text-decoration:none;\n      color:${"dark" === e.theme ? "white" : "#800000"};\n      font-size:12px\n    `),
                 t
             );

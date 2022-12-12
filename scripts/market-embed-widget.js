@@ -111,6 +111,5 @@
             return t.setAttribute("src", `${"https://widget.dnse.com.vn/index-widget" || "http://localhost:4000"}?${e}`), (t.style.cssText = "\n      width: 100%;\n      height: 100%;\n      border: none;\n    "), t;
         }
     })();
-    $(".p-2 a").href = 'https://fireant.vn/dashboard';
 })();
 //# sourceMappingURL=embed-widget.js.map
